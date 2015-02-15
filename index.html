@@ -1,20 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta charset="utf-8">
-    <style>
-      html, body, #map-canvas {
-        height: 100%;
-        margin: 0px;
-        padding: 0px
-      }
-    </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-    <script src="js/all.js"></script>
-  </head>
-  <body>
-    <div id="map-canvas"></div>
-  </body>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
+<style>
+html, body, #map-canvas {
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+</style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+<script src="data/location.js"></script>
+<script>
+function initialize() {
+    // 畫地圖
+    var centerOfTaiwan = new google.maps.LatLng(23.97565, 120.973882);
+    var mapOptions = {
+        zoom: 7,
+            center: centerOfTaiwan
+    };
+    var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+    for (var i in mylocation) {
+        var albumset = mylocation[i];
+        for (var j in albumset) {
+            var albumelement = albumset[j];
+            if (albumelement.location) {
+                // 有地理資訊
+                var lat = albumelement.location[0];
+                var lon = albumelement.location[1];
+
+                // 畫單點
+                var myLatlng = new google.maps.LatLng(lat, lon);
+                var marker = new google.maps.Marker({
+                    map: map,
+                        position: myLatlng,
+                });
+            }
+        }
+    }
+
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+</head>
+<body>
+<div id="map-canvas"></div>
+</body>
 </html>
