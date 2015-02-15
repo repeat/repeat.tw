@@ -16,9 +16,13 @@ html, body, #map-canvas {
 function initialize() {
     // 畫地圖
     var centerOfTaiwan = new google.maps.LatLng(23.97565, 120.973882);
+    var mycenter = new google.maps.LatLng(
+        mylocation.center[0],
+        mylocation.center[1]
+    );
     var mapOptions = {
-        zoom: 7,
-            center: centerOfTaiwan
+        zoom: 6,
+        center: mycenter
     };
     var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
@@ -35,7 +39,7 @@ function initialize() {
                 var myLatlng = new google.maps.LatLng(lat, lon);
                 var marker = new google.maps.Marker({
                     map: map,
-                        position: myLatlng,
+                    position: myLatlng,
                 });
             }
         }
