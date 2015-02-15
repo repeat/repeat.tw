@@ -1,4 +1,4 @@
-var mylocation = {
+var myLocation = {
     "14993772": {
         "151671546": {
             "title": "3CK ㄍㄢㄉㄣ 2116",
