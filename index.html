@@ -16,24 +16,24 @@ html, body, #map-canvas {
 function initialize() {
     // 畫地圖
     var centerOfTaiwan = new google.maps.LatLng(23.97565, 120.973882);
-    var mycenter = new google.maps.LatLng(
-        mylocation.center[0],
-        mylocation.center[1]
+    var myCenter = new google.maps.LatLng(
+        myLocation.center[0],
+        myLocation.center[1]
     );
     var mapOptions = {
         zoom: 6,
-        center: mycenter
+        center: myCenter
     };
     var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
-    for (var i in mylocation) {
-        var albumset = mylocation[i];
-        for (var j in albumset) {
-            var albumelement = albumset[j];
-            if (albumelement.location) {
+    for (var i in myLocation) {
+        var albumSet = myLocation[i];
+        for (var j in albumSet) {
+            var albumElement = albumSet[j];
+            if (albumElement.location) {
                 // 有地理資訊
-                var lat = albumelement.location[0];
-                var lon = albumelement.location[1];
+                var lat = albumElement.location[0];
+                var lon = albumElement.location[1];
 
                 // 畫單點
                 var myLatlng = new google.maps.LatLng(lat, lon);
