@@ -26,6 +26,7 @@ function initialize() {
         center: myCenter
     };
     var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+    var infowindow = new google.maps.InfoWindow();
 
     for (var i in myLocation) {
         var albumSet = myLocation[i];
@@ -36,12 +37,36 @@ function initialize() {
                 var lat = albumElement.location[0];
                 var lon = albumElement.location[1];
 
+                var thumbJquery = $('<img>')
+                    .attr('src', albumElement.thumb);
+                var linkJquery = $('<a>')
+                    .attr('target', '_blank')
+                    .attr('href', albumElement.link)
+                    .append(thumbJquery);
+                var elementTitle = albumElement.title;
+                var contentJquery = $('<div>')
+                    .attr('id', 'bodyContent')
+                    .text(elementTitle)
+                    .append(linkJquery);
+                var contentHtml = contentJquery[0];
+                console.log(contentHtml);
+
                 // 畫單點
                 var myLatlng = new google.maps.LatLng(lat, lon);
                 var marker = new google.maps.Marker({
                     map: map,
                     position: myLatlng,
+                    title: elementTitle,
+                    content: contentHtml
                 });
+
+                // handle infowindow
+                google.maps.event.addListener(marker, 'click', (function(marker, j) {
+                    return function() {
+                        infowindow.setContent(marker.content);
+                        infowindow.open(map, marker);
+                    }
+                })(marker, j));
             }
         }
     }
