@@ -972,7 +972,7 @@ var myLocation = {
         },
         "151688637": {
             "title": "橋頭糖廠旁平交道， PP 通過",
-            "thumb": "http:\/\/pimg.pixnet.tv\/user\/repeat\/151688637\/bg_000000\/90x90\/default.jpg?v=1420471296",
+            "thumb": "https:\/\/pimg.pixnet.tv\/user\/repeat\/151688637\/bg_000000\/90x90\/default.jpg?v=1420471296",
             "link": "http:\/\/repeat.tw\/album\/video\/151688637",
             "created_at": 1419472005,
             "location": [
@@ -9572,7 +9572,7 @@ var myLocation = {
         },
         "150096636": {
             "title": "高雄國際機場觀景台",
-            "thumb": "http:\/\/pimg.pixnet.tv\/user\/repeat\/150096636\/bg_000000\/90x90\/default.jpg?v=1406621840",
+            "thumb": "https:\/\/pimg.pixnet.tv\/user\/repeat\/150096636\/bg_000000\/90x90\/default.jpg?v=1406621840",
             "link": "http:\/\/repeat.tw\/album\/video\/150096636",
             "created_at": 1405657817,
             "location": [
@@ -9582,7 +9582,7 @@ var myLocation = {
         },
         "150096639": {
             "title": "高雄國際機場觀景台",
-            "thumb": "http:\/\/pimg.pixnet.tv\/user\/repeat\/150096639\/bg_000000\/90x90\/default.jpg?v=1406621840",
+            "thumb": "https:\/\/pimg.pixnet.tv\/user\/repeat\/150096639\/bg_000000\/90x90\/default.jpg?v=1406621840",
             "link": "http:\/\/repeat.tw\/album\/video\/150096639",
             "created_at": 1405658328,
             "location": [
@@ -9662,7 +9662,7 @@ var myLocation = {
         },
         "150097362": {
             "title": "南岡山沿途風景",
-            "thumb": "http:\/\/pimg.pixnet.tv\/user\/repeat\/150097362\/bg_000000\/90x90\/default.jpg?v=1405663334",
+            "thumb": "https:\/\/pimg.pixnet.tv\/user\/repeat\/150097362\/bg_000000\/90x90\/default.jpg?v=1405663334",
             "link": "http:\/\/repeat.tw\/album\/video\/150097362",
             "created_at": 1405662271,
             "location": [
@@ -10044,7 +10044,7 @@ var myLocation = {
         },
         "150086937": {
             "title": "美濃黃蝶翠谷",
-            "thumb": "http:\/\/pimg.pixnet.tv\/user\/repeat\/150086937\/bg_000000\/90x90\/default.jpg?v=1406621764",
+            "thumb": "https:\/\/pimg.pixnet.tv\/user\/repeat\/150086937\/bg_000000\/90x90\/default.jpg?v=1406621764",
             "link": "http:\/\/repeat.tw\/album\/video\/150086937",
             "created_at": 1405575862,
             "location": [
@@ -10054,7 +10054,7 @@ var myLocation = {
         },
         "150086958": {
             "title": "美濃黃蝶翠谷",
-            "thumb": "http:\/\/pimg.pixnet.tv\/user\/repeat\/150086958\/bg_000000\/90x90\/default.jpg?v=1406621765",
+            "thumb": "https:\/\/pimg.pixnet.tv\/user\/repeat\/150086958\/bg_000000\/90x90\/default.jpg?v=1406621765",
             "link": "http:\/\/repeat.tw\/album\/video\/150086958",
             "created_at": 1405576131,
             "location": [
@@ -10064,7 +10064,7 @@ var myLocation = {
         },
         "150087003": {
             "title": "美濃黃蝶翠谷",
-            "thumb": "http:\/\/pimg.pixnet.tv\/user\/repeat\/150087003\/bg_000000\/90x90\/default.jpg?v=1406621769",
+            "thumb": "https:\/\/pimg.pixnet.tv\/user\/repeat\/150087003\/bg_000000\/90x90\/default.jpg?v=1406621769",
             "link": "http:\/\/repeat.tw\/album\/video\/150087003",
             "created_at": 1405576526,
             "location": [
@@ -10584,7 +10584,7 @@ var myLocation = {
         },
         "150087300": {
             "title": "漢神巨蛋 fun 輕鬆音樂節 \/ 熊寶貝《一個人的天光》",
-            "thumb": "http:\/\/pimg.pixnet.tv\/user\/repeat\/150087300\/bg_000000\/90x90\/default.jpg?v=1408346211",
+            "thumb": "https:\/\/pimg.pixnet.tv\/user\/repeat\/150087300\/bg_000000\/90x90\/default.jpg?v=1408346211",
             "link": "http:\/\/repeat.tw\/album\/video\/150087300",
             "created_at": 1405577975,
             "location": [
@@ -10594,7 +10594,7 @@ var myLocation = {
         },
         "150088398": {
             "title": "漢神巨蛋 fun 輕鬆音樂節 \/ 熊寶貝《年年》",
-            "thumb": "http:\/\/pimg.pixnet.tv\/user\/repeat\/150088398\/bg_000000\/90x90\/default.jpg?v=1405596164",
+            "thumb": "https:\/\/pimg.pixnet.tv\/user\/repeat\/150088398\/bg_000000\/90x90\/default.jpg?v=1405596164",
             "link": "http:\/\/repeat.tw\/album\/video\/150088398",
             "created_at": 1405595480,
             "location": [
@@ -15666,7 +15666,7 @@ var myLocation = {
         },
         "149894577": {
             "title": "R68 進入轉盤區，掉頭",
-            "thumb": "http:\/\/pimg.pixnet.tv\/user\/repeat\/149894577\/bg_000000\/90x90\/default.jpg?v=1404018485",
+            "thumb": "https:\/\/pimg.pixnet.tv\/user\/repeat\/149894577\/bg_000000\/90x90\/default.jpg?v=1404018485",
             "link": "http:\/\/repeat.tw\/album\/video\/149894577",
             "created_at": 1404014916,
             "location": [
@@ -15676,7 +15676,7 @@ var myLocation = {
         },
         "149894601": {
             "title": "R68 從轉盤前進至 1 號駐車軌前",
-            "thumb": "http:\/\/pimg.pixnet.tv\/user\/repeat\/149894601\/bg_000000\/90x90\/default.jpg?v=1404018485",
+            "thumb": "https:\/\/pimg.pixnet.tv\/user\/repeat\/149894601\/bg_000000\/90x90\/default.jpg?v=1404018485",
             "link": "http:\/\/repeat.tw\/album\/video\/149894601",
             "created_at": 1404015514,
             "location": [
@@ -17264,7 +17264,7 @@ var myLocation = {
         },
         "148767915": {
             "title": "IMG_1146.MOV",
-            "thumb": "http:\/\/pimg.pixnet.tv\/user\/repeat\/148767915\/bg_000000\/90x90\/default.jpg?v=1396103385",
+            "thumb": "https:\/\/pimg.pixnet.tv\/user\/repeat\/148767915\/bg_000000\/90x90\/default.jpg?v=1396103385",
             "link": "http:\/\/repeat.tw\/album\/video\/148767915",
             "created_at": 1396103378
         },
